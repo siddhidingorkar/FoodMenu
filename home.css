@@ -1,0 +1,63 @@
+body,
+html {
+  height: 100%;
+  background: #fceabb; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to top,
+    #f8b500,
+    #fceabb
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #f9c844,
+    #fceabb
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.navbar-nav {
+  margin-left: auto;
+}
+
+.card-title {
+  font-weight: bold;
+  color: #f50808;
+}
+
+.card-text {
+  color: #2f2e41;
+}
+
+#navbar {
+  color: black;
+}
+
+.home-card {
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.151
+  ); /* Black partially transparent background */
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-radius: 12px;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  padding: 20px;
+  text-align: center;
+}
+
+/* .image {
+  background-image: url("");
+  filter: blur(6px);
+
+  height: 100%;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: back;
+} */

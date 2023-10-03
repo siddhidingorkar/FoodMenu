@@ -1,0 +1,18 @@
+body,
+html {
+  height: 100%;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 50%,
+    rgba(249, 200, 68, 1) 100%
+  );
+}
+
+.navbar-nav {
+  margin-left: auto;
+}
+
+.home-text {
+  justify-content: center;
+}
